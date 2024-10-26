@@ -8,10 +8,28 @@ export const getProjects = async () => {
   return data;
 };
 
-export const getReadme = async () => {
-  const { data } = await axios.get(config.readmeUrl);
-  return data;
+export const getBookList = async()=>{
+  try{
+    const { data } = await axios.get(
+      'https://raw.githubusercontent.com/vihaan-that/ThatTerm/refs/heads/main/bookshelf.md'
+    );
+    return data;
+  } catch (error){
+    return 'Could Not Fetch BookList';
+  }
 };
+
+export const getReadme = async () => {
+  try {
+    const { data } = await axios.get(
+      'https://raw.githubusercontent.com/vihaan-that/ThatTerm/main/README.md'
+    );
+    return data;
+  } catch (error) {
+    return 'An error occurred while fetching the README file.';
+  }
+};
+
 
 export const getWeather = async (city: string) => {
   try {

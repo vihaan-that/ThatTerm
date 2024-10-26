@@ -1,5 +1,5 @@
 {
-  "readmeUrl": "https://github.com/vihaan-that/ThatTerm/blob/main/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/vihaan-that/ThatTerm/refs/heads/main/README.md",
   "title": "ThatTerm",
   "name": "Vihaan Thatiparthi",
   "ascii": "VihaanThat",
@@ -11,7 +11,7 @@
   "ps1_hostname": "ThatTerm",
   "ps1_username": "visitor",
   "repo": "https://github.com/vihaan-that",
-  "resume_url": "https://copper-alejandra-78.tiiny.site/",
+  "resume_url": "https://github.com/vihaan-that/ThatTerm/blob/main/vihaanResume.pdf",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
     "patreon": "https://patreon.com/cveinnt"

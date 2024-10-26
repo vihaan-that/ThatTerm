@@ -4,6 +4,7 @@ import { getProjects } from '../api';
 import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
+import { getBookList } from '../api';
 
 export const projects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
@@ -15,15 +16,16 @@ export const projects = async (args: string[]): Promise<string> => {
     .join('\n');
 };
 
-export const quote = async (args: string[]): Promise<string> => {
-  const data = await getQuote();
-  return data.quote;
-};
 
 export const readme = async (args: string[]): Promise<string> => {
   const readme = await getReadme();
   return `Opening GitHub README...\n
   ${readme}`;
+};
+
+export const bookshelf = async (args: string[]): Promise<string> => {
+  const readme = await getBookList();
+  return `Transporting you to my BookShelf...\n\n${readme}`;
 };
 
 export const weather = async (args: string[]): Promise<string> => {

@@ -4,23 +4,25 @@ import * as bin from './index';
 import config from '../../../config.json';
 
 // Help
+
 export const help = async (args: string[]): Promise<string> => {
-  const commands = Object.keys(bin).sort().join(', ');
-  var c = '';
-  for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
-    if (i % 7 === 0) {
-      c += Object.keys(bin).sort()[i - 1] + '\n';
-    } else {
-      c += Object.keys(bin).sort()[i - 1] + ' ';
-    }
+  const commands = Object.keys(bin).sort();
+  const numColumns = 4; // Adjust the number of columns as desired
+  const columnWidth = Math.max(...commands.map(cmd => cmd.length)) + 4; // Width of each column for alignment
+  let c = '';
+
+  for (let i = 0; i < commands.length; i++) {
+    c += commands[i].padEnd(columnWidth, ' '); // Add spaces to align columns
+    if ((i + 1) % numColumns === 0) c += '\n'; // New line after reaching column count
   }
-  return `Welcome! Here are all the available commands:
-\n${c}\n
+
+  return `Welcome! Here are all the available commands:\n\n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
 Type 'sumfetch' to display summary.
 `;
 };
+
 
 // Redirection
 export const repo = async (args: string[]): Promise<string> => {
@@ -67,12 +69,6 @@ export const google = async (args: string[]): Promise<string> => {
 };
 
 
-
-export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
-};
-
 export const reddit = async (args: string[]): Promise<string> => {
   window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
   return `Searching reddit for ${args.join(' ')}...`;
@@ -84,7 +80,8 @@ export const echo = async (args: string[]): Promise<string> => {
 };
 
 export const whoami = async (args: string[]): Promise<string> => {
-  return `${config.ps1_username}`;
+  const newWindow = window.open('https://www.youtube.com/watch?v=h6fcK_fRYaI', '_blank'); 
+  return `You are universe manifesting itself to uunderstand it's nature`;
 };
 
 export const ls = async (args: string[]): Promise<string> => {
@@ -104,29 +101,16 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
-};
-
-export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
-};
 
 export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
+  return `'nvim'? Haven't integrated it yet (╥﹏╥)\nI can however redirect you to my remote compiler project, the day I actually complete it`;
 };
 
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `'emacs'? use nvim like the arch lords intended`;
-};
+
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
+  const newWindow = window.open('https://youtu.be/ib30QnCBryc?feature=shared&t=171', '_blank'); // Open in the same tab
+  return `Permission Denied: enduku ivanni ippudu? `;
 };
-export const bookshelf = async(args?: string[]): Promise<string>=>{
-    
-}
-// Banner
 
 export const banner = (args?: string[]): string => {
   return `
