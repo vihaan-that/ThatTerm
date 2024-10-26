@@ -1,7 +1,7 @@
 
 # My Portfolio
 
-Welcome to my portfolio! I’m a passionate software developer with a keen interest in building efficient, reliable systems and delving into complex problem-solving. Below, you’ll find an outline of my technical skills, research interests, and more about my work.
+Welcome to my portfolio! I’m a passionate software developer with a keen interest in building efficient, reliable systems. Below, you’ll find an outline of my technical skills, research interests, and more about my work.
 
 ## 🔧 Technical Skills
 
