@@ -24,12 +24,6 @@ Type 'sumfetch' to display summary.
 };
 
 
-// Redirection
-export const repo = async (args: string[]): Promise<string> => {
-  window.open(`${config.repo}`);
-  return 'Opening Github repository...';
-};
-
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
@@ -108,7 +102,7 @@ export const nvim = async (args: string[]): Promise<string> => {
 
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  const newWindow = window.open('https://youtu.be/ib30QnCBryc?feature=shared&t=171', '_blank'); // Open in the same tab
+  const newWindow = window.open('https://drive.google.com/file/d/1pYbeSccmk6hX2O-G6OJuLlfeTxcsTZoL/view?usp=sharing', '_blank'); // Open in the same tab
   return `Permission Denied: enduku ivanni ippudu? `;
 };
 
