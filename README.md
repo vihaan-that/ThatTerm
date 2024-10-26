@@ -1,15 +1,33 @@
 
-# LiveTerm Setup
+# My Portfolio
 
-This is a fork of the [LiveTerm](https://github.com/Cveinnt/LiveTerm) project — a highly customizable, minimal terminal-style website template powered by Next.js.
+Welcome to my portfolio! I’m a passionate software developer with a keen interest in building efficient, reliable systems and delving into complex problem-solving. Below, you’ll find an outline of my technical skills, research interests, and more about my work.
 
-## Getting Started
+## 🔧 Technical Skills
 
-To set up this project, please follow the instructions in the original [LiveTerm README](https://github.com/Cveinnt/LiveTerm) for installation, configuration, and deployment.
+**Languages:**  
+- Typescript, JavaScript, C++, C, Python, Go, Java
 
-### Quick Links
-- [Installation Instructions](https://github.com/Cveinnt/LiveTerm#installation)
-- [Configuration Guide](https://github.com/Cveinnt/LiveTerm#configuration)
-- [Deployment to Vercel](https://github.com/Cveinnt/LiveTerm#deploy-on-vercel)
+**Frameworks:**  
+- Next.js, Puppeteer, Maven
 
-For further customization or advanced usage, refer to the [LiveTerm repository](https://github.com/Cveinnt/LiveTerm).
+**Tools:**  
+- Docker, Kubernetes, Jenkins, Vim, Ansible
+
+**Specialties:**  
+- CLI Application Development  
+- Containerization & Orchestration  
+- Configuring CI/CD Pipelines  
+- Linux System Administration  
+
+## 📚 Interests
+
+- Modeling Natural Systems in Code  
+- Reinforcement Learning & Deep Learning  
+- Linguistics & Language Modeling  
+- Distributed Systems  
+
+## 📖 Current Research
+
+I am currently focused on developing a novel preprocessing technique aimed at reducing segmentation faults in Telugu OCR. This work combines my interests in language processing, image recognition, and error mitigation.
+
