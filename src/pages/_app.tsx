@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }) => {
           key="viewport"
           maximum-scale="1"
         />
-        <link rel="icon" href="/favicon.ico" /> 
+        <link rel="icon" href="../../favicon.ico" /> 
       </Head>
 
       <div
