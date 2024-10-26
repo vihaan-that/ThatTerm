@@ -1,23 +1,25 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "ThatTerm",
+  "name": "Vihaan Thatiparthi",
+  "ascii": "VihaanThat",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "vihaan-that",
+    "linkedin": "vihaan-thatiparthi-1394b6289"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "vihaanreddy.t22@iiits.in",
+  "ps1_hostname": "ThatTerm",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/vihaan-that",
+  "resume_url": "https://copper-alejandra-78.tiiny.site/",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
     "patreon": "https://patreon.com/cveinnt"
   },
-  "colors": {
-    "light": {
+  
+
+"colors": {
+  "light": {
       "background": "#FBF1C9",
       "foreground": "#3C3836",
       "yellow": "#D79921",
@@ -27,13 +29,13 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
-    }
+      "background": "#1c1c1c",
+      "foreground": "#EBDBB2",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#A89984",
+      "blue": "#458588",
+      "red": "#CA2124"
+    } 
   }
 }

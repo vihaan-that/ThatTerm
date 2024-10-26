@@ -28,29 +28,29 @@ const sumfetch = async (args: string[]): Promise<string> => {
 ████████████████████████████████████████████████████████████████████     -----------
 █████████████░    ▒█░                                  ▓████████████     ABOUT
 ████████████░   ▒█████░                                 ████████████    
-████████████  ░████████▓                                ▓███████████    ►Class:      Advaitin Polymath
-████████████ ░███████████░                              ▓███████████    ►Background: Humanborn
+████████████  ░████████▓                                ▓███████████    Class: Advaitin Polymath
+████████████ ░███████████░                              ▓███████████    Background: Philosopher of Dual Realities
 ████████████ ████████████▓                              ▓███████████    
-████████████ ▓███████████▒                              ▓███████████    ►Alignment:  Chaotic Good
-████████████  ░▒▒▒▓█▓▒▒▒░                               ▓███████████    ►Skills:     Guitar Bard, Flute Sage, Beatboxing Skald, 
-████████████     ▒███▒                                  ▓███████████                 Code Mage, Wordsmith Scribe, Digital Explorer,
-████████████     ▒▒▒▒▒                                  ▓███████████                 Iron Guardian, Mind Seeker
+████████████ ▓███████████▒                              ▓███████████    Alignment: Neutral Good
+████████████  ░▒▒▒▓█▓▒▒▒░                               ▓███████████    Skills: Guitar Bard, Flute Sage, Beatboxing Skald, 
+████████████     ▒███▒                                  ▓███████████            Code Mage, Wordsmith Scribe, Digital Explorer,
+████████████     ▒▒▒▒▒                                  ▓███████████            Iron Guardian, Mind Seeker
 ████████████                  ██████████▒               ▓███████████    
-████████████                      ███░                  ▓███████████    ►Bio:        A Non-Dualist Techo-mage bard, with an affinity for iron.
-████████████                      ███░                  ▓███████████                 Guided by the compass of curiosity, I've been led down  
-████████████                      ███░                  ▓███████████                 myriad paths, catalysing change in my spirit and flesh.   
-████████████    ▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓   ▓███████████    -----------
-████████████    ▐▓                                 ▐▓   ▓███████████     CONTACT
-████████████    ▐▓        Jack of All Trades       ▐▓   ▓███████████     Email: <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
-████████████    ▐▓                                 ▐▓   ▓███████████     GitHub: <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
-████████████    ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓   ▓███████████     LinkedIn: <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>           
-████████████            █████▒    ███░                  ▓███████████  
+████████████                      ███░                  ▓███████████    Bio: In the realm where philosophy meets practice, I wield
+████████████                      ███░                  ▓███████████         the wisdom of Advaita and the crafts of a polymath.
+████████████                      ███░                  ▓███████████         Whether crafting melodic spells on guitar and flute,
+████████████                      ███░                  ▓███████████         beatboxing rhythmic incantations, or casting lines of
+████████████                      ███░                  ▓███████████         code as a programming mage, my pursuits traverse both
+████████████                      ███░                  ▓███████████         mind and muscle. From gaming quests to powerlifting
+████████████                      ███░                  ▓███████████         feats, each path enriches my journey. A seeker of
+████████████            ░████░    ███░                  ▓███████████         knowledge, I balance the mental and the physical,
+████████████            █████▒    ███░                  ▓███████████         harmonizing thought with action and theory with practice.
 ████████████            ██░░░    ░███░                  ▓███████████    
-████████████            ░█░      ▓██▓                   ▓███████████   
-████████████              ▒█▓▒▒███▓░                    ▓███████████   
-████████████                                  ▒▒▒▒▒     ▓███████████    
-████████████                                  ▒███▓     ▓███████████  
-████████████                                ▒▒▒▓██▒▒▒░  ▓███████████   
+████████████            ░█░      ▓██▓                   ▓███████████    -----------
+████████████              ▒█▓▒▒███▓░                    ▓███████████     CONTACT
+████████████                                  ▒▒▒▒▒     ▓███████████     Email: <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
+████████████                                  ▒███▓     ▓███████████     GitHub: <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
+████████████                                ▒▒▒▓██▒▒▒░  ▓███████████     LinkedIn: <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>           
 ████████████                              ░███████████▓ ▓███████████             
 ████████████                              █████████████ ▓███████████                   
 ████████████                              ░███████████░ ▓███████████                 
@@ -59,7 +59,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 █████████████░                                 ░█▒     ▓████████████                  
 ████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████              
 ████████████████████████████████████████████████████████████████████            
-████████████████████████████████████████████████████████████████████                      
+████████████████████████████████████████████████████████████████████                         
                                         
 `; 
   }

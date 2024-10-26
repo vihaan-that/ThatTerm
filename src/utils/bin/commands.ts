@@ -44,13 +44,7 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 
 // Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
+
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -64,11 +58,7 @@ export const github = async (args: string[]): Promise<string> => {
   return 'Opening github...';
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
 
-  return 'Opening linkedin...';
-};
 
 // Search
 export const google = async (args: string[]): Promise<string> => {
@@ -76,10 +66,7 @@ export const google = async (args: string[]): Promise<string> => {
   return `Searching google for ${args.join(' ')}...`;
 };
 
-export const duckduckgo = async (args: string[]): Promise<string> => {
-  window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
-  return `Searching duckduckgo for ${args.join(' ')}...`;
-};
+
 
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
@@ -101,16 +88,16 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `Home
+Documents
+Downloads
+HomeworkFolder ---- 50 GB
+DRDO MISSILE LAUNCH KEYS(DO NOT OPEN)`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+if you want to help, you can refer me for a cool job.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -130,28 +117,30 @@ export const nvim = async (args: string[]): Promise<string> => {
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
+  return `'emacs'? use nvim like the arch lords intended`;
 };
-
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
 };
-
+export const bookshelf = async(args?: string[]): Promise<string>=>{
+    
+}
 // Banner
+
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
-
+ █████   █████ █████ █████   █████   █████████     █████████   ██████   █████ ███████████ █████   █████   █████████   ███████████
+░░███   ░░███ ░░███ ░░███   ░░███   ███░░░░░███   ███░░░░░███ ░░██████ ░░███ ░█░░░███░░░█░░███   ░░███   ███░░░░░███ ░█░░░███░░░█
+ ░███    ░███  ░███  ░███    ░███  ░███    ░███  ░███    ░███  ░███░███ ░███ ░   ░███  ░  ░███    ░███  ░███    ░███ ░   ░███  ░ 
+ ░███    ░███  ░███  ░███████████  ░███████████  ░███████████  ░███░░███░███     ░███     ░███████████  ░███████████     ░███    
+ ░░███   ███   ░███  ░███░░░░░███  ░███░░░░░███  ░███░░░░░███  ░███ ░░██████     ░███     ░███░░░░░███  ░███░░░░░███     ░███    
+  ░░░█████░    ░███  ░███    ░███  ░███    ░███  ░███    ░███  ░███  ░░█████     ░███     ░███    ░███  ░███    ░███     ░███    
+    ░░███      █████ █████   █████ █████   █████ █████   █████ █████  ░░█████    █████    █████   █████ █████   █████    █████   
+     ░░░      ░░░░░ ░░░░░   ░░░░░ ░░░░░   ░░░░░ ░░░░░   ░░░░░ ░░░░░    ░░░░░    ░░░░░    ░░░░░   ░░░░░ ░░░░░   ░░░░░    ░░░░░    
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
+
