@@ -75,7 +75,7 @@ export const echo = async (args: string[]): Promise<string> => {
 
 export const whoami = async (args: string[]): Promise<string> => {
   const newWindow = window.open('https://www.youtube.com/watch?v=h6fcK_fRYaI', '_blank'); 
-  return `You are universe manifesting itself to uunderstand it's nature`;
+  return `You are universe manifesting itself to understand it's nature`;
 };
 
 export const ls = async (args: string[]): Promise<string> => {
