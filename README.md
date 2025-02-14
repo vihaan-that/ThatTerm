@@ -66,7 +66,7 @@ This project explores the fusion of Brain-Computer Interfaces (BCI) and Mixed Re
   - Engineered an engaging landing page utilizing **GSAP** with scroll-trigger animations and parallax effects, enhanced by a dynamic canvas cursor from the **cursify** library.  
   - Designed and prototyped monetization features to support paid tournaments and sponsor integrations.
 
-### CMNTR | Python (2024)
+### CMNTR 
 - **Description:** A specialized note-taking and retrieval application tailored for code-mixed Telugu-English users.  
 - **Key Features:**  
   - Utilized Random Indexing and BERT models for AutoSuggestion and context-aware text retrieval, enabling lightweight online learning of user-specific data patterns.  
